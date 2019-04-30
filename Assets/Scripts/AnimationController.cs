@@ -9,7 +9,7 @@ using HoloToolkit.Examples.InteractiveElements;	// access button script
 public class AnimationController : MonoBehaviour {
 
     public GameObject headObject;
-	public AudioClip[] audios;
+	public AudioClip[] audios;  // The audio should be separated into paragraphs
 	public GameObject buttonPrefab;
 	public TextAsset txtAsset;
 
@@ -17,6 +17,7 @@ public class AnimationController : MonoBehaviour {
     private string[] answerText;
 	private GameObject textobj;
 	private GameObject[] bottuns;
+    private int audio_now = 0;
 
     // Use this for initialization
     void Start()
@@ -26,20 +27,26 @@ public class AnimationController : MonoBehaviour {
 
 		textobj = transform.Find("Dialog").gameObject;
 		textobj.SetActive (false);
+        ShowCaption(false);
+        DisplayOption(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        // When the audio finishes, pop out buttons to interact
+        // When the audio finishes, play the next audio and dialiog, pop out buttons to interact when everything is done.
         if (!initialState && !this.GetComponent<AudioSource>().isPlaying)
         {
-			DisplayOption (true);
-			textobj.SetActive (false);
-        }
-        else
-        {
-			DisplayOption (false);
+            audio_now++;
+            if (audio_now < audios.Length)
+            {
+                ButtonInteraction(audio_now);
+            }
+            else
+            {
+                DisplayOption(true);
+                textobj.SetActive(false);
+            }
         }
     }
 
@@ -53,19 +60,41 @@ public class AnimationController : MonoBehaviour {
         textobj.GetComponent<TextMesh>().color = newColor;
     }
 
+    // Interrupt the animation and dialog immediately
+    public void StopAnimation()
+    {
+        headObject.GetComponent<Animator>().SetTrigger("interrupt");
+        GetComponentInChildren<Animator>().SetTrigger("interrupt");
+        this.GetComponent<AudioSource>().Stop();
+        audio_now = 99999;
+        DisplayOption(true);
+    }
+
     // To create more options, add cases and change animator's trigger name
     public void ButtonInteraction(int option)
     {
-        PlayDialog(option, answerText[option]);
+        PlayDialog(option);
         switch (option)
         {
             case 0:
                 headObject.GetComponent<Animator>().SetTrigger("repeat");
                 GetComponentInChildren<Animator>().SetTrigger("repeat");
+                PlayDialog(0);
                 break;
             case 1:
-                headObject.GetComponent<Animator>().SetTrigger("repeat");
-                GetComponentInChildren<Animator>().SetTrigger("repeat");
+                headObject.GetComponent<Animator>().SetTrigger("para2");
+                GetComponentInChildren<Animator>().SetTrigger("para2");
+                PlayDialog(1);
+                break;
+            case 2:
+                headObject.GetComponent<Animator>().SetTrigger("para3");
+                GetComponentInChildren<Animator>().SetTrigger("para3");
+                PlayDialog(2);
+                break;
+            case 3:
+                headObject.GetComponent<Animator>().SetTrigger("para4");
+                GetComponentInChildren<Animator>().SetTrigger("para4");
+                PlayDialog(3);
                 break;
             default:
                 break;
@@ -80,15 +109,23 @@ public class AnimationController : MonoBehaviour {
 		}
 	}
 
-	// Paly the audio and show the dialog of choice
-	private void PlayDialog(int audio, string text)
+    // Paly the audio and show the dialog of choice
+    private void PlayDialog(int number)
 	{
-		this.GetComponent<AudioSource> ().clip = audios [audio];
+		this.GetComponent<AudioSource>().clip = audios [number];
 		this.GetComponent<AudioSource>().Play();
-        textobj.GetComponent<TextMesh>().text = text;
-        textobj.SetActive (true);
-	}
+        audio_now = number;
 
+        // activate the text object to make it scroll from the beginning
+        textobj.GetComponent<TextMesh>().text = answerText[number];
+        textobj.SetActive(false);
+        textobj.SetActive(true);
+
+        // Close the options when playing the dialog.
+        DisplayOption(false);
+    }
+
+    // Tour guide should only activate once, then wait for user input
     private void OnTriggerEnter(Collider col)
     {
         headObject.GetComponent<Animator>().SetBool("inRange", true);
@@ -96,7 +133,7 @@ public class AnimationController : MonoBehaviour {
 
 		// First encounter
 		if (initialState) {
-            PlayDialog(0, answerText[0]);
+            PlayDialog(0);
         }
 		initialState = false;
     }
@@ -122,8 +159,11 @@ public class AnimationController : MonoBehaviour {
 			bottuns [i].transform.localPosition = new Vector3 (0.3f, 0.673f, 0.3f);
             bottuns[i].transform.localPosition += new Vector3(0f, -0.1f * i, 0f);
 
-            // Words shown on button are separated by , in the text file. Additional newline is added for button layout issue
-            bottuns[i].GetComponent<LabelTheme>().Default = "\n"+ titles.Split (',')[i];
+            // Words shown on button are separated by , in the text file.
+            bottuns[i].GetComponent<LabelTheme>().Default = titles.Split (',')[i];
+            if (i == buttonNum - 1) {
+                bottuns[i].GetComponent<LabelTheme>().Default = '\n' + titles.Split(',')[i];
+            }
 
 			// Setup the button's select function
 			Interactive buttonInteractive = bottuns[i].GetComponent<Interactive>();

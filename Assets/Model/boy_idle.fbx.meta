@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 7f30ee9a24541394d98b688b436c1c92
+timeCreated: 1554814191
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: AACircleCtrl
+    100002: AAGrp
+    100004: Bill_BS_grp
+    100006: Bill_Ctrl:ChestEndEffector
+    100008: Bill_Ctrl:ChestOriginEffector
+    100010: Bill_Ctrl:Head
+    100012: Bill_Ctrl:HeadEffector
+    100014: Bill_Ctrl:Hips
+    100016: Bill_Ctrl:HipsEffector
+    100018: Bill_Ctrl:LeftAnkleEffector
+    100020: Bill_Ctrl:LeftArm
+    100022: Bill_Ctrl:LeftElbowEffector
+    100024: Bill_Ctrl:LeftFoot
+    100026: Bill_Ctrl:LeftForeArm
+    100028: Bill_Ctrl:LeftHand
+    100030: Bill_Ctrl:LeftHipEffector
+    100032: Bill_Ctrl:LeftKneeEffector
+    100034: Bill_Ctrl:LeftLeg
+    100036: Bill_Ctrl:LeftShoulderEffector
+    100038: Bill_Ctrl:LeftUpLeg
+    100040: Bill_Ctrl:LeftWristEffector
+    100042: Bill_Ctrl:Reference
+    100044: Bill_Ctrl:RightAnkleEffector
+    100046: Bill_Ctrl:RightArm
+    100048: Bill_Ctrl:RightElbowEffector
+    100050: Bill_Ctrl:RightFoot
+    100052: Bill_Ctrl:RightForeArm
+    100054: Bill_Ctrl:RightHand
+    100056: Bill_Ctrl:RightHipEffector
+    100058: Bill_Ctrl:RightKneeEffector
+    100060: Bill_Ctrl:RightLeg
+    100062: Bill_Ctrl:RightShoulderEffector
+    100064: Bill_Ctrl:RightUpLeg
+    100066: Bill_Ctrl:RightWristEffector
+    100068: Bill_Ctrl:Spine
+    100070: Bill_head_a_jnt
+    100072: Bill_hip_jnt
+    100074: Bill_jaw_a_jnt
+    100076: Bill_jaw_b_jnt
+    100078: Bill_lf_ankle_jnt
+    100080: Bill_lf_ankleWeight_jnt
+    100082: Bill_lf_ball_jnt
+    100084: Bill_lf_clavicle_jnt
+    100086: Bill_lf_elbow_jnt
+    100088: Bill_lf_elbowWeight_jnt
+    100090: Bill_lf_elbowWeightSplit_1_jnt
+    100092: Bill_lf_eye_jnt
+    100094: Bill_lf_hand_jnt
+    100096: Bill_lf_index_a_jnt
+    100098: Bill_lf_index_b_jnt
+    100100: Bill_lf_index_c_jnt
+    100102: Bill_lf_knee_jnt
+    100104: Bill_lf_kneeWeight_jnt
+    100106: Bill_lf_middle_a_jnt
+    100108: Bill_lf_middle_b_jnt
+    100110: Bill_lf_middle_c_jnt
+    100112: Bill_lf_pinky_a_jnt
+    100114: Bill_lf_pinky_b_jnt
+    100116: Bill_lf_pinky_c_jnt
+    100118: Bill_lf_pinkyCup_jnt
+    100120: Bill_lf_ring_a_jnt
+    100122: Bill_lf_ring_b_jnt
+    100124: Bill_lf_ring_c_jnt
+    100126: Bill_lf_ringCup_jnt
+    100128: Bill_lf_thumb_a_jnt
+    100130: Bill_lf_thumb_b_jnt
+    100132: Bill_lf_thumb_c_jnt
+    100134: Bill_lf_upArm_jnt
+    100136: Bill_lf_upArmWeight_jnt
+    100138: Bill_lf_upArmWeightSplit_1_jnt
+    100140: Bill_lf_upLeg_jnt
+    100142: Bill_lf_upLegWeight_jnt
+    100144: Bill_lf_wrist_jnt
+    100146: Bill_lf_wristWeight_jnt
+    100148: Bill_neck_jnt
+    100150: Bill_rig_grp
+    100152: Bill_rt_ankle_jnt
+    100154: Bill_rt_ankleWeight_jnt
+    100156: Bill_rt_ball_jnt
+    100158: Bill_rt_clavicle_jnt
+    100160: Bill_rt_elbow_jnt
+    100162: Bill_rt_elbowWeight_jnt
+    100164: Bill_rt_elbowWeightSplit_1_jnt
+    100166: Bill_rt_eye_jnt
+    100168: Bill_rt_hand_jnt
+    100170: Bill_rt_index_a_jnt
+    100172: Bill_rt_index_b_jnt
+    100174: Bill_rt_index_c_jnt
+    100176: Bill_rt_knee_jnt
+    100178: Bill_rt_kneeWeight_jnt
+    100180: Bill_rt_middle_a_jnt
+    100182: Bill_rt_middle_b_jnt
+    100184: Bill_rt_middle_c_jnt
+    100186: Bill_rt_pinky_a_jnt
+    100188: Bill_rt_pinky_b_jnt
+    100190: Bill_rt_pinky_c_jnt
+    100192: Bill_rt_pinkyCup_jnt
+    100194: Bill_rt_ring_a_jnt
+    100196: Bill_rt_ring_b_jnt
+    100198: Bill_rt_ring_c_jnt
+    100200: Bill_rt_ringCup_jnt
+    100202: Bill_rt_thumb_a_jnt
+    100204: Bill_rt_thumb_b_jnt
+    100206: Bill_rt_thumb_c_jnt
+    100208: Bill_rt_upArm_jnt
+    100210: Bill_rt_upArmWeight_jnt
+    100212: Bill_rt_upArmWeightSplit_1_jnt
+    100214: Bill_rt_upLeg_jnt
+    100216: Bill_rt_upLegWeight_jnt
+    100218: Bill_rt_wrist_jnt
+    100220: Bill_rt_wristWeight_jnt
+    100222: Bill_Skeleton_grp
+    100224: Bill_spine_end_jnt
+    100226: Bill_spine_hi_jnt
+    100228: Bill_spine_low_jnt
+    100230: Bill_spine_mid_jnt
+    100232: Bill_weightSpine_b_jnt
+    100234: Bill_weightSpine_c_jnt
+    100236: blendshape_Bill_BS_grp
+    100238: boy_ALL
+    100240: //RootNode
+    100242: boy_model_grp
+    100244: braces_geo
+    100246: braces_sign_geo
+    100248: BrowCircleCtrl
+    100250: BrowGrp
+    100252: CheekCircleCtrl
+    100254: CheekGrp
+    100256: cloth_geo
+    100258: EyelidCircleCtrl
+    100260: EyelidGrp
+    100262: face_geo
+    100264: face_rig_grp
+    100266: FaceControl_move_CTRL
+    100268: FFCircleCtrl
+    100270: FFGrp
+    100272: group1
+    100274: group11
+    100276: group12
+    100278: group13
+    100280: group14
+    100282: group2
+    100284: group3
+    100286: group4
+    100288: gum_down_geo
+    100290: gum_up_geo
+    100292: gum_up_geo 1
+    100294: hair_geo
+    100296: head_BS_aa
+    100298: head_BS_Base
+    100300: head_BS_brow_down
+    100302: head_BS_brow_up
+    100304: head_BS_ff
+    100306: head_BS_L_cheek
+    100308: head_BS_L_eye_close
+    100310: head_BS_L_eye_open
+    100312: head_BS_L_eyelid_close
+    100314: head_BS_L_frown
+    100316: head_BS_L_smile
+    100318: head_BS_L_sneer_down
+    100320: head_BS_L_sneer_up
+    100322: head_BS_mm
+    100324: head_BS_mouth_big
+    100326: head_BS_mouth_down
+    100328: head_BS_mouth_left
+    100330: head_BS_mouth_Right
+    100332: head_BS_mouth_small
+    100334: head_BS_mouth_up
+    100336: head_BS_nose_down
+    100338: head_BS_nose_up
+    100340: head_BS_oo
+    100342: head_BS_R_cheek
+    100344: head_BS_R_eye_close
+    100346: head_BS_R_eye_open
+    100348: head_BS_R_eyelid_close
+    100350: head_BS_R_frown
+    100352: head_BS_R_smile
+    100354: head_BS_R_sneer_down
+    100356: head_BS_R_sneer_up
+    100358: head_BS_rr
+    100360: head_BS_vv
+    100362: head_BS_zz
+    100364: head_geo_grp
+    100366: joint1
+    100368: joint10
+    100370: joint11
+    100372: joint12
+    100374: joint13
+    100376: joint14
+    100378: joint2
+    100380: joint3
+    100382: joint4
+    100384: joint5
+    100386: joint6
+    100388: joint7
+    100390: joint8
+    100392: joint9
+    100394: kouqiang_grp
+    100396: kouqiang_grp 1
+    100398: kouqiang_grp 10
+    100400: kouqiang_grp 11
+    100402: kouqiang_grp 12
+    100404: kouqiang_grp 13
+    100406: kouqiang_grp 14
+    100408: kouqiang_grp 15
+    100410: kouqiang_grp 16
+    100412: kouqiang_grp 17
+    100414: kouqiang_grp 18
+    100416: kouqiang_grp 19
+    100418: kouqiang_grp 2
+    100420: kouqiang_grp 20
+    100422: kouqiang_grp 21
+    100424: kouqiang_grp 22
+    100426: kouqiang_grp 23
+    100428: kouqiang_grp 24
+    100430: kouqiang_grp 25
+    100432: kouqiang_grp 26
+    100434: kouqiang_grp 27
+    100436: kouqiang_grp 28
+    100438: kouqiang_grp 29
+    100440: kouqiang_grp 3
+    100442: kouqiang_grp 30
+    100444: kouqiang_grp 31
+    100446: kouqiang_grp 32
+    100448: kouqiang_grp 33
+    100450: kouqiang_grp 34
+    100452: kouqiang_grp 4
+    100454: kouqiang_grp 5
+    100456: kouqiang_grp 6
+    100458: kouqiang_grp 7
+    100460: kouqiang_grp 8
+    100462: kouqiang_grp 9
+    100464: L_arm_geo
+    100466: L_brow_geo
+    100468: L_ear_joint
+    100470: L_eye
+    100472: L_eye 1
+    100474: L_eye 10
+    100476: L_eye 11
+    100478: L_eye 12
+    100480: L_eye 13
+    100482: L_eye 14
+    100484: L_eye 15
+    100486: L_eye 16
+    100488: L_eye 17
+    100490: L_eye 18
+    100492: L_eye 19
+    100494: L_eye 2
+    100496: L_eye 20
+    100498: L_eye 21
+    100500: L_eye 22
+    100502: L_eye 23
+    100504: L_eye 24
+    100506: L_eye 25
+    100508: L_eye 26
+    100510: L_eye 27
+    100512: L_eye 28
+    100514: L_eye 29
+    100516: L_eye 3
+    100518: L_eye 30
+    100520: L_eye 31
+    100522: L_eye 32
+    100524: L_eye 33
+    100526: L_eye 34
+    100528: L_eye 4
+    100530: L_eye 5
+    100532: L_eye 6
+    100534: L_eye 7
+    100536: L_eye 8
+    100538: L_eye 9
+    100540: L_EyeCircleCtrl
+    100542: L_EyeGrp
+    100544: L_leg_geo
+    100546: L_shoe_geo
+    100548: lf_armWeightJnt_grp
+    100550: lf_legWeightJnt_grp
+    100552: MMCircleCtrl
+    100554: MMGrp
+    100556: NoseCircleCtrl
+    100558: NoseGrp
+    100560: OOCircleCtrl
+    100562: OOGrp
+    100564: pants_geo
+    100566: polySurface168
+    100568: polySurface169
+    100570: R_arm_geo
+    100572: R_brow_geo
+    100574: R_ear_joint
+    100576: R_eye
+    100578: R_eye 1
+    100580: R_eye 10
+    100582: R_eye 11
+    100584: R_eye 12
+    100586: R_eye 13
+    100588: R_eye 14
+    100590: R_eye 15
+    100592: R_eye 16
+    100594: R_eye 17
+    100596: R_eye 18
+    100598: R_eye 19
+    100600: R_eye 2
+    100602: R_eye 20
+    100604: R_eye 21
+    100606: R_eye 22
+    100608: R_eye 23
+    100610: R_eye 24
+    100612: R_eye 25
+    100614: R_eye 26
+    100616: R_eye 27
+    100618: R_eye 28
+    100620: R_eye 29
+    100622: R_eye 3
+    100624: R_eye 30
+    100626: R_eye 31
+    100628: R_eye 32
+    100630: R_eye 33
+    100632: R_eye 34
+    100634: R_eye 4
+    100636: R_eye 5
+    100638: R_eye 6
+    100640: R_eye 7
+    100642: R_eye 8
+    100644: R_eye 9
+    100646: R_EyeCircleCtrl
+    100648: R_EyeGrp
+    100650: R_leg_geo
+    100652: R_shoe_geo
+    100654: RRCircleCtrl
+    100656: RRGrp
+    100658: rt_armWeightJnt_grp
+    100660: rt_legWeightJnt_grp
+    100662: SlideCircleCtrl
+    100664: SlideGrp
+    100666: SmileCircleCtrl
+    100668: SmileGrp
+    100670: SneerCircleCtrl
+    100672: SneerGrp
+    100674: StretchCircleCtrl
+    100676: StretchGrp
+    100678: tongue_geo
+    100680: tooth_down_geo
+    100682: tooth_downgrp
+    100684: tooth_downgrp 1
+    100686: tooth_downgrp 10
+    100688: tooth_downgrp 11
+    100690: tooth_downgrp 12
+    100692: tooth_downgrp 13
+    100694: tooth_downgrp 14
+    100696: tooth_downgrp 15
+    100698: tooth_downgrp 16
+    100700: tooth_downgrp 17
+    100702: tooth_downgrp 18
+    100704: tooth_downgrp 19
+    100706: tooth_downgrp 2
+    100708: tooth_downgrp 20
+    100710: tooth_downgrp 21
+    100712: tooth_downgrp 22
+    100714: tooth_downgrp 23
+    100716: tooth_downgrp 24
+    100718: tooth_downgrp 25
+    100720: tooth_downgrp 26
+    100722: tooth_downgrp 27
+    100724: tooth_downgrp 28
+    100726: tooth_downgrp 29
+    100728: tooth_downgrp 3
+    100730: tooth_downgrp 30
+    100732: tooth_downgrp 31
+    100734: tooth_downgrp 32
+    100736: tooth_downgrp 33
+    100738: tooth_downgrp 34
+    100740: tooth_downgrp 4
+    100742: tooth_downgrp 5
+    100744: tooth_downgrp 6
+    100746: tooth_downgrp 7
+    100748: tooth_downgrp 8
+    100750: tooth_downgrp 9
+    100752: tooth_up_geo
+    100754: tooth_up_grp
+    100756: tooth_up_grp 1
+    100758: tooth_up_grp 10
+    100760: tooth_up_grp 11
+    100762: tooth_up_grp 12
+    100764: tooth_up_grp 13
+    100766: tooth_up_grp 14
+    100768: tooth_up_grp 15
+    100770: tooth_up_grp 16
+    100772: tooth_up_grp 17
+    100774: tooth_up_grp 18
+    100776: tooth_up_grp 19
+    100778: tooth_up_grp 2
+    100780: tooth_up_grp 20
+    100782: tooth_up_grp 21
+    100784: tooth_up_grp 22
+    100786: tooth_up_grp 23
+    100788: tooth_up_grp 24
+    100790: tooth_up_grp 25
+    100792: tooth_up_grp 26
+    100794: tooth_up_grp 27
+    100796: tooth_up_grp 28
+    100798: tooth_up_grp 29
+    100800: tooth_up_grp 3
+    100802: tooth_up_grp 30
+    100804: tooth_up_grp 31
+    100806: tooth_up_grp 32
+    100808: tooth_up_grp 33
+    100810: tooth_up_grp 34
+    100812: tooth_up_grp 4
+    100814: tooth_up_grp 5
+    100816: tooth_up_grp 6
+    100818: tooth_up_grp 7
+    100820: tooth_up_grp 8
+    100822: tooth_up_grp 9
+    100824: VVCircleCtrl
+    100826: VVGrp
+    100828: weightSpine_grp
+    100830: ZZCircleCtrl
+    100832: ZZGrp
+    400000: AACircleCtrl
+    400002: AAGrp
+    400004: Bill_BS_grp
+    400006: Bill_Ctrl:ChestEndEffector
+    400008: Bill_Ctrl:ChestOriginEffector
+    400010: Bill_Ctrl:Head
+    400012: Bill_Ctrl:HeadEffector
+    400014: Bill_Ctrl:Hips
+    400016: Bill_Ctrl:HipsEffector
+    400018: Bill_Ctrl:LeftAnkleEffector
+    400020: Bill_Ctrl:LeftArm
+    400022: Bill_Ctrl:LeftElbowEffector
+    400024: Bill_Ctrl:LeftFoot
+    400026: Bill_Ctrl:LeftForeArm
+    400028: Bill_Ctrl:LeftHand
+    400030: Bill_Ctrl:LeftHipEffector
+    400032: Bill_Ctrl:LeftKneeEffector
+    400034: Bill_Ctrl:LeftLeg
+    400036: Bill_Ctrl:LeftShoulderEffector
+    400038: Bill_Ctrl:LeftUpLeg
+    400040: Bill_Ctrl:LeftWristEffector
+    400042: Bill_Ctrl:Reference
+    400044: Bill_Ctrl:RightAnkleEffector
+    400046: Bill_Ctrl:RightArm
+    400048: Bill_Ctrl:RightElbowEffector
+    400050: Bill_Ctrl:RightFoot
+    400052: Bill_Ctrl:RightForeArm
+    400054: Bill_Ctrl:RightHand
+    400056: Bill_Ctrl:RightHipEffector
+    400058: Bill_Ctrl:RightKneeEffector
+    400060: Bill_Ctrl:RightLeg
+    400062: Bill_Ctrl:RightShoulderEffector
+    400064: Bill_Ctrl:RightUpLeg
+    400066: Bill_Ctrl:RightWristEffector
+    400068: Bill_Ctrl:Spine
+    400070: Bill_head_a_jnt
+    400072: Bill_hip_jnt
+    400074: Bill_jaw_a_jnt
+    400076: Bill_jaw_b_jnt
+    400078: Bill_lf_ankle_jnt
+    400080: Bill_lf_ankleWeight_jnt
+    400082: Bill_lf_ball_jnt
+    400084: Bill_lf_clavicle_jnt
+    400086: Bill_lf_elbow_jnt
+    400088: Bill_lf_elbowWeight_jnt
+    400090: Bill_lf_elbowWeightSplit_1_jnt
+    400092: Bill_lf_eye_jnt
+    400094: Bill_lf_hand_jnt
+    400096: Bill_lf_index_a_jnt
+    400098: Bill_lf_index_b_jnt
+    400100: Bill_lf_index_c_jnt
+    400102: Bill_lf_knee_jnt
+    400104: Bill_lf_kneeWeight_jnt
+    400106: Bill_lf_middle_a_jnt
+    400108: Bill_lf_middle_b_jnt
+    400110: Bill_lf_middle_c_jnt
+    400112: Bill_lf_pinky_a_jnt
+    400114: Bill_lf_pinky_b_jnt
+    400116: Bill_lf_pinky_c_jnt
+    400118: Bill_lf_pinkyCup_jnt
+    400120: Bill_lf_ring_a_jnt
+    400122: Bill_lf_ring_b_jnt
+    400124: Bill_lf_ring_c_jnt
+    400126: Bill_lf_ringCup_jnt
+    400128: Bill_lf_thumb_a_jnt
+    400130: Bill_lf_thumb_b_jnt
+    400132: Bill_lf_thumb_c_jnt
+    400134: Bill_lf_upArm_jnt
+    400136: Bill_lf_upArmWeight_jnt
+    400138: Bill_lf_upArmWeightSplit_1_jnt
+    400140: Bill_lf_upLeg_jnt
+    400142: Bill_lf_upLegWeight_jnt
+    400144: Bill_lf_wrist_jnt
+    400146: Bill_lf_wristWeight_jnt
+    400148: Bill_neck_jnt
+    400150: Bill_rig_grp
+    400152: Bill_rt_ankle_jnt
+    400154: Bill_rt_ankleWeight_jnt
+    400156: Bill_rt_ball_jnt
+    400158: Bill_rt_clavicle_jnt
+    400160: Bill_rt_elbow_jnt
+    400162: Bill_rt_elbowWeight_jnt
+    400164: Bill_rt_elbowWeightSplit_1_jnt
+    400166: Bill_rt_eye_jnt
+    400168: Bill_rt_hand_jnt
+    400170: Bill_rt_index_a_jnt
+    400172: Bill_rt_index_b_jnt
+    400174: Bill_rt_index_c_jnt
+    400176: Bill_rt_knee_jnt
+    400178: Bill_rt_kneeWeight_jnt
+    400180: Bill_rt_middle_a_jnt
+    400182: Bill_rt_middle_b_jnt
+    400184: Bill_rt_middle_c_jnt
+    400186: Bill_rt_pinky_a_jnt
+    400188: Bill_rt_pinky_b_jnt
+    400190: Bill_rt_pinky_c_jnt
+    400192: Bill_rt_pinkyCup_jnt
+    400194: Bill_rt_ring_a_jnt
+    400196: Bill_rt_ring_b_jnt
+    400198: Bill_rt_ring_c_jnt
+    400200: Bill_rt_ringCup_jnt
+    400202: Bill_rt_thumb_a_jnt
+    400204: Bill_rt_thumb_b_jnt
+    400206: Bill_rt_thumb_c_jnt
+    400208: Bill_rt_upArm_jnt
+    400210: Bill_rt_upArmWeight_jnt
+    400212: Bill_rt_upArmWeightSplit_1_jnt
+    400214: Bill_rt_upLeg_jnt
+    400216: Bill_rt_upLegWeight_jnt
+    400218: Bill_rt_wrist_jnt
+    400220: Bill_rt_wristWeight_jnt
+    400222: Bill_Skeleton_grp
+    400224: Bill_spine_end_jnt
+    400226: Bill_spine_hi_jnt
+    400228: Bill_spine_low_jnt
+    400230: Bill_spine_mid_jnt
+    400232: Bill_weightSpine_b_jnt
+    400234: Bill_weightSpine_c_jnt
+    400236: blendshape_Bill_BS_grp
+    400238: boy_ALL
+    400240: //RootNode
+    400242: boy_model_grp
+    400244: braces_geo
+    400246: braces_sign_geo
+    400248: BrowCircleCtrl
+    400250: BrowGrp
+    400252: CheekCircleCtrl
+    400254: CheekGrp
+    400256: cloth_geo
+    400258: EyelidCircleCtrl
+    400260: EyelidGrp
+    400262: face_geo
+    400264: face_rig_grp
+    400266: FaceControl_move_CTRL
+    400268: FFCircleCtrl
+    400270: FFGrp
+    400272: group1
+    400274: group11
+    400276: group12
+    400278: group13
+    400280: group14
+    400282: group2
+    400284: group3
+    400286: group4
+    400288: gum_down_geo
+    400290: gum_up_geo
+    400292: gum_up_geo 1
+    400294: hair_geo
+    400296: head_BS_aa
+    400298: head_BS_Base
+    400300: head_BS_brow_down
+    400302: head_BS_brow_up
+    400304: head_BS_ff
+    400306: head_BS_L_cheek
+    400308: head_BS_L_eye_close
+    400310: head_BS_L_eye_open
+    400312: head_BS_L_eyelid_close
+    400314: head_BS_L_frown
+    400316: head_BS_L_smile
+    400318: head_BS_L_sneer_down
+    400320: head_BS_L_sneer_up
+    400322: head_BS_mm
+    400324: head_BS_mouth_big
+    400326: head_BS_mouth_down
+    400328: head_BS_mouth_left
+    400330: head_BS_mouth_Right
+    400332: head_BS_mouth_small
+    400334: head_BS_mouth_up
+    400336: head_BS_nose_down
+    400338: head_BS_nose_up
+    400340: head_BS_oo
+    400342: head_BS_R_cheek
+    400344: head_BS_R_eye_close
+    400346: head_BS_R_eye_open
+    400348: head_BS_R_eyelid_close
+    400350: head_BS_R_frown
+    400352: head_BS_R_smile
+    400354: head_BS_R_sneer_down
+    400356: head_BS_R_sneer_up
+    400358: head_BS_rr
+    400360: head_BS_vv
+    400362: head_BS_zz
+    400364: head_geo_grp
+    400366: joint1
+    400368: joint10
+    400370: joint11
+    400372: joint12
+    400374: joint13
+    400376: joint14
+    400378: joint2
+    400380: joint3
+    400382: joint4
+    400384: joint5
+    400386: joint6
+    400388: joint7
+    400390: joint8
+    400392: joint9
+    400394: kouqiang_grp
+    400396: kouqiang_grp 1
+    400398: kouqiang_grp 10
+    400400: kouqiang_grp 11
+    400402: kouqiang_grp 12
+    400404: kouqiang_grp 13
+    400406: kouqiang_grp 14
+    400408: kouqiang_grp 15
+    400410: kouqiang_grp 16
+    400412: kouqiang_grp 17
+    400414: kouqiang_grp 18
+    400416: kouqiang_grp 19
+    400418: kouqiang_grp 2
+    400420: kouqiang_grp 20
+    400422: kouqiang_grp 21
+    400424: kouqiang_grp 22
+    400426: kouqiang_grp 23
+    400428: kouqiang_grp 24
+    400430: kouqiang_grp 25
+    400432: kouqiang_grp 26
+    400434: kouqiang_grp 27
+    400436: kouqiang_grp 28
+    400438: kouqiang_grp 29
+    400440: kouqiang_grp 3
+    400442: kouqiang_grp 30
+    400444: kouqiang_grp 31
+    400446: kouqiang_grp 32
+    400448: kouqiang_grp 33
+    400450: kouqiang_grp 34
+    400452: kouqiang_grp 4
+    400454: kouqiang_grp 5
+    400456: kouqiang_grp 6
+    400458: kouqiang_grp 7
+    400460: kouqiang_grp 8
+    400462: kouqiang_grp 9
+    400464: L_arm_geo
+    400466: L_brow_geo
+    400468: L_ear_joint
+    400470: L_eye
+    400472: L_eye 1
+    400474: L_eye 10
+    400476: L_eye 11
+    400478: L_eye 12
+    400480: L_eye 13
+    400482: L_eye 14
+    400484: L_eye 15
+    400486: L_eye 16
+    400488: L_eye 17
+    400490: L_eye 18
+    400492: L_eye 19
+    400494: L_eye 2
+    400496: L_eye 20
+    400498: L_eye 21
+    400500: L_eye 22
+    400502: L_eye 23
+    400504: L_eye 24
+    400506: L_eye 25
+    400508: L_eye 26
+    400510: L_eye 27
+    400512: L_eye 28
+    400514: L_eye 29
+    400516: L_eye 3
+    400518: L_eye 30
+    400520: L_eye 31
+    400522: L_eye 32
+    400524: L_eye 33
+    400526: L_eye 34
+    400528: L_eye 4
+    400530: L_eye 5
+    400532: L_eye 6
+    400534: L_eye 7
+    400536: L_eye 8
+    400538: L_eye 9
+    400540: L_EyeCircleCtrl
+    400542: L_EyeGrp
+    400544: L_leg_geo
+    400546: L_shoe_geo
+    400548: lf_armWeightJnt_grp
+    400550: lf_legWeightJnt_grp
+    400552: MMCircleCtrl
+    400554: MMGrp
+    400556: NoseCircleCtrl
+    400558: NoseGrp
+    400560: OOCircleCtrl
+    400562: OOGrp
+    400564: pants_geo
+    400566: polySurface168
+    400568: polySurface169
+    400570: R_arm_geo
+    400572: R_brow_geo
+    400574: R_ear_joint
+    400576: R_eye
+    400578: R_eye 1
+    400580: R_eye 10
+    400582: R_eye 11
+    400584: R_eye 12
+    400586: R_eye 13
+    400588: R_eye 14
+    400590: R_eye 15
+    400592: R_eye 16
+    400594: R_eye 17
+    400596: R_eye 18
+    400598: R_eye 19
+    400600: R_eye 2
+    400602: R_eye 20
+    400604: R_eye 21
+    400606: R_eye 22
+    400608: R_eye 23
+    400610: R_eye 24
+    400612: R_eye 25
+    400614: R_eye 26
+    400616: R_eye 27
+    400618: R_eye 28
+    400620: R_eye 29
+    400622: R_eye 3
+    400624: R_eye 30
+    400626: R_eye 31
+    400628: R_eye 32
+    400630: R_eye 33
+    400632: R_eye 34
+    400634: R_eye 4
+    400636: R_eye 5
+    400638: R_eye 6
+    400640: R_eye 7
+    400642: R_eye 8
+    400644: R_eye 9
+    400646: R_EyeCircleCtrl
+    400648: R_EyeGrp
+    400650: R_leg_geo
+    400652: R_shoe_geo
+    400654: RRCircleCtrl
+    400656: RRGrp
+    400658: rt_armWeightJnt_grp
+    400660: rt_legWeightJnt_grp
+    400662: SlideCircleCtrl
+    400664: SlideGrp
+    400666: SmileCircleCtrl
+    400668: SmileGrp
+    400670: SneerCircleCtrl
+    400672: SneerGrp
+    400674: StretchCircleCtrl
+    400676: StretchGrp
+    400678: tongue_geo
+    400680: tooth_down_geo
+    400682: tooth_downgrp
+    400684: tooth_downgrp 1
+    400686: tooth_downgrp 10
+    400688: tooth_downgrp 11
+    400690: tooth_downgrp 12
+    400692: tooth_downgrp 13
+    400694: tooth_downgrp 14
+    400696: tooth_downgrp 15
+    400698: tooth_downgrp 16
+    400700: tooth_downgrp 17
+    400702: tooth_downgrp 18
+    400704: tooth_downgrp 19
+    400706: tooth_downgrp 2
+    400708: tooth_downgrp 20
+    400710: tooth_downgrp 21
+    400712: tooth_downgrp 22
+    400714: tooth_downgrp 23
+    400716: tooth_downgrp 24
+    400718: tooth_downgrp 25
+    400720: tooth_downgrp 26
+    400722: tooth_downgrp 27
+    400724: tooth_downgrp 28
+    400726: tooth_downgrp 29
+    400728: tooth_downgrp 3
+    400730: tooth_downgrp 30
+    400732: tooth_downgrp 31
+    400734: tooth_downgrp 32
+    400736: tooth_downgrp 33
+    400738: tooth_downgrp 34
+    400740: tooth_downgrp 4
+    400742: tooth_downgrp 5
+    400744: tooth_downgrp 6
+    400746: tooth_downgrp 7
+    400748: tooth_downgrp 8
+    400750: tooth_downgrp 9
+    400752: tooth_up_geo
+    400754: tooth_up_grp
+    400756: tooth_up_grp 1
+    400758: tooth_up_grp 10
+    400760: tooth_up_grp 11
+    400762: tooth_up_grp 12
+    400764: tooth_up_grp 13
+    400766: tooth_up_grp 14
+    400768: tooth_up_grp 15
+    400770: tooth_up_grp 16
+    400772: tooth_up_grp 17
+    400774: tooth_up_grp 18
+    400776: tooth_up_grp 19
+    400778: tooth_up_grp 2
+    400780: tooth_up_grp 20
+    400782: tooth_up_grp 21
+    400784: tooth_up_grp 22
+    400786: tooth_up_grp 23
+    400788: tooth_up_grp 24
+    400790: tooth_up_grp 25
+    400792: tooth_up_grp 26
+    400794: tooth_up_grp 27
+    400796: tooth_up_grp 28
+    400798: tooth_up_grp 29
+    400800: tooth_up_grp 3
+    400802: tooth_up_grp 30
+    400804: tooth_up_grp 31
+    400806: tooth_up_grp 32
+    400808: tooth_up_grp 33
+    400810: tooth_up_grp 34
+    400812: tooth_up_grp 4
+    400814: tooth_up_grp 5
+    400816: tooth_up_grp 6
+    400818: tooth_up_grp 7
+    400820: tooth_up_grp 8
+    400822: tooth_up_grp 9
+    400824: VVCircleCtrl
+    400826: VVGrp
+    400828: weightSpine_grp
+    400830: ZZCircleCtrl
+    400832: ZZGrp
+    4300000: cloth_geo
+    4300002: braces_geo
+    4300004: L_shoe_geo
+    4300006: pants_geo
+    4300008: hair_geo
+    4300010: R_shoe_geo
+    4300012: R_arm_geo
+    4300014: L_arm_geo
+    4300016: L_leg_geo
+    4300018: R_leg_geo
+    4300020: braces_sign_geo
+    4300022: face_geo
+    4300024: L_brow_geo
+    4300026: R_brow_geo
+    4300028: polySurface168
+    4300030: polySurface169
+    4300032: tooth_down_geo
+    4300034: gum_down_geo
+    4300036: tooth_up_geo
+    4300038: tongue_geo
+    4300040: gum_up_geo 1
+    7400000: Idle
+    9500000: //RootNode
+    13700000: braces_geo
+    13700002: braces_sign_geo
+    13700004: cloth_geo
+    13700006: face_geo
+    13700008: gum_down_geo
+    13700010: gum_up_geo 1
+    13700012: hair_geo
+    13700014: L_arm_geo
+    13700016: L_brow_geo
+    13700018: L_leg_geo
+    13700020: L_shoe_geo
+    13700022: pants_geo
+    13700024: polySurface168
+    13700026: polySurface169
+    13700028: R_arm_geo
+    13700030: R_brow_geo
+    13700032: R_leg_geo
+    13700034: R_shoe_geo
+    13700036: tongue_geo
+    13700038: tooth_down_geo
+    13700040: tooth_up_geo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02 - Default
+    second: {fileID: 2100000, guid: 7484c90f07813244b8b4b2ef6de6616b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: f3ae2a5b9b1c11c408a2a9fc02cc63ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: 9ca22051aa35575469d74c5a742cfa76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: e4386a2bf558f90488a1e3a1d799a0fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: cda58a3373630de41bd4092bc5658002, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: c571127b09c6cdc47a653d00498978e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayFastSSS23
+    second: {fileID: 2100000, guid: ae56d655f10c44c41b231cbd425b9eb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VRayMtl6
+    second: {fileID: 2100000, guid: 27889d31ce1a57349a7ecea6c1f9a7e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kudai_shader
+    second: {fileID: 2100000, guid: 68cd0f510b96c4d42ac53c39ed0cc0c4, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

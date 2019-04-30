@@ -5,14 +5,15 @@ using UnityEngine;
 
 public class EditController : MonoBehaviour {
 
+    public GameObject UserPosition;
     GameObject EditMenu;
-    GameObject cursor;
+    //GameObject cursor;
 
     private GameObject[] guides;
 
     // Use this for initialization
     void Start () {
-        cursor = GameObject.Find("Anchor_Cursor");
+        //cursor = GameObject.Find("Anchor_Cursor");
         guides = GameObject.FindGameObjectsWithTag("Guide");
         EditMenu = GameObject.Find("EditMenu");
         EditMenu.SetActive(false);
@@ -53,4 +54,28 @@ public class EditController : MonoBehaviour {
         }
     }
 
+    public void InterruptAnimation()
+    {
+        foreach (GameObject guide in guides)
+        {
+            guide.GetComponent<AnimationController>().StopAnimation();
+        }
+    }
+
+    public void RepeatDialog(int num)
+    {
+        // Find the closest tour guide and tell it to repeat the nth paragraph.
+        GameObject closest = guides[0];
+        float closest_distance = 999999999;
+        foreach (GameObject guide in guides)
+        {
+            float distance = Vector3.Distance(UserPosition.transform.position, guide.transform.position);
+            if (distance < closest_distance)
+            {
+                closest = guide;
+                closest_distance = distance;
+            }
+        }
+        closest.GetComponent<AnimationController>().ButtonInteraction(num);
+    }
 }
